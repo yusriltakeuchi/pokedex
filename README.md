@@ -27,4 +27,9 @@ flutter run
 
 # Screenshots
 This is a demo screenshot for the result applications.
+- We also use MVVM Architecture in there
+
 <img src="https://i.imgur.com/qPHcllg.png" width="300">
+
+This is for the architecture 
+<img src="https://i.imgur.com/ccutxXX.png" width="300">
