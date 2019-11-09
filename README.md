@@ -27,5 +27,4 @@ flutter run
 
 # Screenshots
 This is a demo screenshot for the result applications.
-
-![](https://i.imgur.com/qPHcllg.png)
+<img src="https://i.imgur.com/qPHcllg.png" width="300">
