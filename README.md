@@ -1,16 +1,31 @@
 # pokedex
 
-A new Flutter project.
+This is an applications for fetching pokemon data from API and showed in Listview with infinity scrolling
+
+#Author
+- Created by Yusril Rapsanjani
+- Language use: Dart
+- Framework: Flutter
+- RestAPI: pokeapi.co
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The first step to install this application, you must clone this repository by:
+```dart
+git clone https://github.com/yusriltakeuchi/pokedex.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+After that you get any packages by using command
+```dart
+flutter packages get
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Then you can run your project by using command
+```dart
+flutter run
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screenshots
+This is a demo screenshot for the result applications.
+
+![](https://i.imgur.com/qPHcllg.png)
