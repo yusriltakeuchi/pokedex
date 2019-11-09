@@ -31,5 +31,5 @@ This is a demo screenshot for the result applications.
 
 <img src="https://i.imgur.com/qPHcllg.png" width="300">
 
-This is for the architecture 
+- This is for the architecture 
 <img src="https://i.imgur.com/ccutxXX.png" width="300">
