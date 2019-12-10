@@ -30,8 +30,7 @@ class PokedexProvider extends ChangeNotifier {
     }
 
     //Notify to all listener widget
-    isFetching = false;
-    notifyListeners();
+    setFetching(false);
   }
 
   Future<void> setFetching(bool value) {

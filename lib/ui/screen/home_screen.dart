@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:pokedex/core/viewmodels/pokedex_provider.dart';
+import 'package:pokedex/ui/widgets/loading_animation.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -47,10 +48,10 @@ class _HomeBodyState extends State<HomeBody> {
 
   @override
   void initState() {
-    // TODO: implement initState
     scrollController = new ScrollController();
     scrollController.addListener(_scrollListener);
 
+    //initialize super state
     super.initState();
   }
   @override
@@ -83,7 +84,7 @@ class _HomeBodyState extends State<HomeBody> {
             pokedexProv.getPokedex.length > 0 ? 
               PokedexList() 
             : Center(
-              child: CircularProgressIndicator(),
+              child: LoadingAnimation(),
             )
           ],
         ),
@@ -174,7 +175,7 @@ class PokedexList extends StatelessWidget {
                                 Text(
                                   data.name,
                                   style: TextStyle(
-                                    fontSize: 23,
+                                    fontSize: 20,
                                     color: Colors.black87,
                                     fontWeight: FontWeight.bold
                                   ),
